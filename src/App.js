@@ -3,15 +3,29 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import profile from './assets/0.jpeg';
 import banner from './assets/banner2.jpeg';
+import login from './assets/login0.png';
+import login1 from './assets/login1.png';
+import login2 from './assets/login2.png';
+
+import sports1 from './assets/sports1.png';
+import sports2 from './assets/sports2.png';
+import sports3 from './assets/sports3.png';
+import sports4 from './assets/sports4.png';
+
+import money1 from './assets/money1.png';
+import money2 from './assets/money2.png';
+import money3 from './assets/money3.png';
+
+import {Carousel} from 'react-bootstrap';
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div id='About'>
           <div id='banner' style={{height:'200px'}}>
-          <img src={banner} width='100%' style={{ borderRadius:'10px', border:'1px solid black'}}/>
+          <img src={banner} width='100%' style={{ borderRadius:'10px', border:'1px solid black'}} alt=""/>
           </div>
-          <img src={profile} style={{borderRadius: '100px', border: '1px solid black', marginBottom: '50px'}}/>
+          <img src={profile} style={{borderRadius: '100px', border: '1px solid black', marginBottom: '50px'}} alt=""/>
           <h1 style={{fontWeight:'bold'}}>About Me</h1>
 
           <p> I am an inovative graduate student from the University of Toronto who is ambitious and keen to learning new concepts and techniques.
@@ -61,10 +75,74 @@ class App extends Component {
           <div>
             <h4 style={{fontWeight:'bold'}}>Projects</h4>
             <ul>
+              <li><a href='https://github.com/willjorey/Login-Boiler-Plate'> Login Template </a> A login template with Async Storage signup, can have Firebase authentication</li>
+              <div id='carousel'>
+              <Carousel>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-50 h-50"
+                    src={login}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={login1}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={login2}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+              </div>
               <li><a href='https://github.com/willjorey/React-Native/tree/master/Login'>Sports Hybrid Mobile App</a> - React Native application used to
               display sporting event information from local tournaments. Allows parents, players, coaches and employees to view scores, schedules, locations,
               and statistics.
               </li>
+
+              <div id='carousel'>
+              <Carousel controls='false'>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-50 h-50"
+                    src={sports1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={sports2}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={sports3}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={sports4}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+              </div>
 
               <li><a href='https://github.com/willjorey/React'>Sports App Web API</a> - User interface friendly api for admins to update or add tournament information
               that will be displayed on the sports application.
@@ -72,6 +150,31 @@ class App extends Component {
 
               <li><a href='https://github.com/willjorey/React-Native/tree/master/MoneyApp'>Money App</a> - A budget app that keeps track of how much money you spend.
               </li>
+              <Carousel>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-50 h-50"
+                    src={money1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={money2}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={money3}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
 
               
             </ul>
