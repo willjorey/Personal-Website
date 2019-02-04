@@ -16,6 +16,13 @@ import money1 from './assets/money1.png';
 import money2 from './assets/money2.png';
 import money3 from './assets/money3.png';
 
+import react1 from './assets/react.png';
+import react2 from './assets/react2.png';
+import react3 from './assets/react3.png';
+import react4 from './assets/react4.png';
+import react5 from './assets/react5.png';
+import react6 from './assets/react6.png';
+
 import {Carousel} from 'react-bootstrap';
 class App extends Component {
   render() {
@@ -77,7 +84,7 @@ class App extends Component {
             <ul>
               <li><a href='https://github.com/willjorey/Login-Boiler-Plate'> Login Template </a> A login template with Async Storage signup, can have Firebase authentication</li>
               <div id='carousel'>
-              <Carousel>
+              <Carousel id= 'mobile'>
                   <Carousel.Item>
                   <img
                     className=" mx-auto d-block w-50 h-50"
@@ -109,7 +116,7 @@ class App extends Component {
               </li>
 
               <div id='carousel'>
-              <Carousel controls='false'>
+              <Carousel id= 'mobile' controls='false'>
                   <Carousel.Item>
                   <img
                     className=" mx-auto d-block w-50 h-50"
@@ -148,9 +155,54 @@ class App extends Component {
               that will be displayed on the sports application.
               </li>
 
+              <Carousel style={{marginTop:'30px', marginBottom: '30px'}}>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react2}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react3}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react4}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react5}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={react6}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+
               <li><a href='https://github.com/willjorey/React-Native/tree/master/MoneyApp'>Money App</a> - A budget app that keeps track of how much money you spend.
               </li>
-              <Carousel>
+              <Carousel id='mobile'>
                   <Carousel.Item>
                   <img
                     className=" mx-auto d-block w-50 h-50"
@@ -175,7 +227,6 @@ class App extends Component {
                   />
                 </Carousel.Item>
               </Carousel>
-
               
             </ul>
           </div>
