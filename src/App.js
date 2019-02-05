@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import profile from './assets/0.jpeg';
 import banner from './assets/banner2.jpeg';
+import math from './assets/math.png';
 import login from './assets/login0.png';
 import login1 from './assets/login1.png';
 import login2 from './assets/login2.png';
@@ -46,14 +47,18 @@ class App extends Component {
             <li>I spent five years learning TaeKwonDo achieving a 3rd degree Black belt and competed provincially in sparring and pattern technique.</li>
           </ul>
           <br/>
+
+
+          <h3 style={{fontWeight:'bold'}}>Education</h3>
+          <hr/>
+          <p> Honours Bachelor of Science - Double Major in Mathematics and Statistics, University of Toronto</p>
+          <br/>
           
           <h3 style={{fontWeight:'bold'}}>Publications</h3>
           <hr/>
           <p>Reyes, W. (2018). Sphere Packing. Retrieved from <a href='https://www.mathinactionjournal.com/sphere-packing'>https://www.mathinactionjournal.com/sphere-packing</a></p>
 
-          <h3 style={{fontWeight:'bold'}}>Education</h3>
-          <hr/>
-          <p> Honours Bachelor of Science - Double Major in Mathematics and Statistics, University of Toronto</p>
+          <img src={math} style={{width: '100%', marginTop: '30px', marginBottom: '30px'}}/>
 
           <div>
             <h2 style={{fontWeight:'bold'}}>Development</h2>
