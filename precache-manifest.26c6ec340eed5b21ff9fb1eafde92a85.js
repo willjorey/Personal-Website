@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e35f2b3a91e93bd7d708f52e08c0c040",
-    "url": "/Personal-Website/static/media/sports3.e35f2b3a.png"
+    "revision": "a93357caa5a50a329dbefc44ef5a81da",
+    "url": "/Personal-Website/static/media/sports2.a93357ca.png"
   },
   {
-    "revision": "d7b7680e6dddb142a112",
-    "url": "/Personal-Website/static/css/main.663d3106.chunk.css"
+    "revision": "60723362eb896200175f",
+    "url": "/Personal-Website/static/css/main.fe6a3eae.chunk.css"
   },
   {
     "revision": "cdf829b2da059e70e6cedb2f0bed85c2",
     "url": "/Personal-Website/static/media/react6.cdf829b2.png"
   },
   {
-    "revision": "3332b85836d3fa04f437",
-    "url": "/Personal-Website/static/js/1.3332b858.chunk.js"
+    "revision": "63f1bd56e51c528a01e7",
+    "url": "/Personal-Website/static/js/1.63f1bd56.chunk.js"
   },
   {
     "revision": "87f34ce215affaea4209",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "709cd3372021d08cf1755a0511f244c8",
     "url": "/Personal-Website/static/media/banner2.709cd337.jpeg"
+  },
+  {
+    "revision": "62b897e49cf5db0d8850320c90a99f7e",
+    "url": "/Personal-Website/static/media/math.62b897e4.png"
   },
   {
     "revision": "a909cca435caf853513f99eead7d3066",
@@ -44,12 +48,12 @@ self.__precacheManifest = [
     "url": "/Personal-Website/static/media/sports1.708dd948.png"
   },
   {
-    "revision": "a93357caa5a50a329dbefc44ef5a81da",
-    "url": "/Personal-Website/static/media/sports2.a93357ca.png"
+    "revision": "60723362eb896200175f",
+    "url": "/Personal-Website/static/js/main.60723362.chunk.js"
   },
   {
-    "revision": "d7b7680e6dddb142a112",
-    "url": "/Personal-Website/static/js/main.d7b7680e.chunk.js"
+    "revision": "e35f2b3a91e93bd7d708f52e08c0c040",
+    "url": "/Personal-Website/static/media/sports3.e35f2b3a.png"
   },
   {
     "revision": "99cd0cac4f1170489d4abbbe87674005",
@@ -88,11 +92,11 @@ self.__precacheManifest = [
     "url": "/Personal-Website/static/media/react5.6739ff5d.png"
   },
   {
-    "revision": "3332b85836d3fa04f437",
-    "url": "/Personal-Website/static/css/1.37072061.chunk.css"
+    "revision": "63f1bd56e51c528a01e7",
+    "url": "/Personal-Website/static/css/1.88c3867e.chunk.css"
   },
   {
-    "revision": "f0ddd33b50e8438cb20d854c87334e87",
+    "revision": "8405acfa2f6f4349dd6e6542f3097531",
     "url": "/Personal-Website/index.html"
   }
 ];
