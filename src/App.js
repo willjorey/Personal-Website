@@ -26,6 +26,15 @@ import react6 from './assets/react6.png';
 
 import {Carousel} from 'react-bootstrap';
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.contactRef = React.createRef();
+    this.developmentRef = React.createRef();
+  }
+  scrollToContactRef = () => window.scrollTo(0, this.contactRef.current.offsetTop);
+  scrollToDevRef = () => window.scrollTo(0, this.developmentRef.current.offsetTop);
+
+
   render() {
     return (
       <div className="App">
@@ -33,8 +42,28 @@ class App extends Component {
           <div id='banner' style={{height:'200px'}}>
           <img src={banner} width='100%' style={{ borderRadius:'10px', border:'1px solid black'}} alt=""/>
           </div>
-          <img src={profile} style={{borderRadius: '100px', border: '1px solid black', marginBottom: '50px'}} alt=""/>
-          <h1 style={{fontWeight:'bold'}}>About Me</h1>
+          <img src={profile} style={{borderRadius: '100px', border: '1px solid black', marginBottom: '30px'}} alt=""/>
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onClick={this.scrollToDevRef}>Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onClick={this.scrollToContactRef}>Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href='https://docs.google.com/document/d/1o3tqVH4mPHkXv32Sk_EQ8VrRERdnuLwoHgKSSg1JaK0/edit?usp=sharing' onClick={this.scrollToMyRef}>Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <h1 style={{fontWeight:'bold', marginTop: '20px'}}>About Me</h1>
 
           <p> I am an inovative graduate student from the University of Toronto who is ambitious and keen to learning new concepts and techniques.
             I have a set of skills in full-stack and mobile application devlopment with Android and IOS.
@@ -61,7 +90,7 @@ class App extends Component {
           <img src={math} style={{width: '100%', marginTop: '30px', marginBottom: '30px'}}/>
 
           <div>
-            <h2 style={{fontWeight:'bold'}}>Development</h2>
+            <h2 style={{fontWeight:'bold'}} ref={this.developmentRef}>Development</h2>
             <hr/>
             <p style={{fontSize: '15px'}}>* List of proficient skills with deeper focus in <b>bold</b></p>
             <p><b>Javascript</b>, Java, Python,  AngularJS, <b>ReactJS</b>, <b>Redux</b>, <b>React Native</b>, <b>Expo</b>, Ionic, Cordova, <b>Node.js</b>, <b>Jest</b>,
@@ -256,7 +285,7 @@ class App extends Component {
             </li>
           </ul>
 
-          <h3 style={{fontWeight:'bold'}}>Contact</h3>
+          <h3 style={{fontWeight:'bold'}} ref={this.contactRef}>Contact</h3>
           Email: <a href='william.j.schober.reyes@gmail.com'>william.j.schober.reyes@gmail.com</a>
           <br/>
           LinkedIn: <a href='https://www.linkedin.com/in/william-reyes-23016a81/'>linkedin.com/in/william-reyes-23016a81</a>
