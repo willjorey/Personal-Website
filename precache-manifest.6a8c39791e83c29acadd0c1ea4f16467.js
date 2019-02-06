@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Personal-Website/static/media/sports2.a93357ca.png"
   },
   {
-    "revision": "60723362eb896200175f",
-    "url": "/Personal-Website/static/css/main.fe6a3eae.chunk.css"
+    "revision": "896fb909049cd4f270d8",
+    "url": "/Personal-Website/static/css/main.f3b40546.chunk.css"
   },
   {
     "revision": "cdf829b2da059e70e6cedb2f0bed85c2",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/Personal-Website/static/media/sports1.708dd948.png"
   },
   {
-    "revision": "60723362eb896200175f",
-    "url": "/Personal-Website/static/js/main.60723362.chunk.js"
+    "revision": "896fb909049cd4f270d8",
+    "url": "/Personal-Website/static/js/main.896fb909.chunk.js"
   },
   {
     "revision": "e35f2b3a91e93bd7d708f52e08c0c040",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/Personal-Website/static/css/1.88c3867e.chunk.css"
   },
   {
-    "revision": "8405acfa2f6f4349dd6e6542f3097531",
+    "revision": "f36c8dbcac6d9f3c744c6553f36c8397",
     "url": "/Personal-Website/index.html"
   }
 ];
