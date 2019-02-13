@@ -24,6 +24,9 @@ import react4 from './assets/react4.png';
 import react5 from './assets/react5.png';
 import react6 from './assets/react6.png';
 
+import tic1 from './assets/tic1.png';
+import tic2 from './assets/tic2.png';
+
 import {Carousel} from 'react-bootstrap';
 class App extends Component {
   constructor(props){
@@ -116,7 +119,29 @@ class App extends Component {
           <div>
             <h4 style={{fontWeight:'bold'}}>Projects</h4>
             <ul>
-              <li><a href='https://github.com/willjorey/Login-Boiler-Plate'> Login Template </a> A login template with Async Storage signup, can have Firebase authentication</li>
+              <li><a href='https://github.com/willjorey/tic-tac-toe'> Tic Tac Toe Game </a> - Small game played with two people, alternating turns to win</li>
+              <div id='carousel'>
+              <Carousel id= 'mobile'>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-50 h-50"
+                    src={tic1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="mx-auto d-block w-50 h-25"
+                    src={tic2}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+              </div>
+
+
+              <li><a href='https://github.com/willjorey/Login-Boiler-Plate'> Login Template </a> - A login template with Async Storage signup, can have Firebase authentication</li>
               <div id='carousel'>
               <Carousel id= 'mobile'>
                   <Carousel.Item>
