@@ -27,6 +27,11 @@ import react6 from './assets/react6.png';
 import tic1 from './assets/tic1.png';
 import tic2 from './assets/tic2.png';
 
+import towers1 from './assets/towers1.png';
+import towers2 from './assets/towers2.png';
+import towers3 from './assets/towers3.png';
+
+
 import {Carousel} from 'react-bootstrap';
 class App extends Component {
   constructor(props){
@@ -254,6 +259,35 @@ class App extends Component {
                   <img
                     className=" mx-auto d-block w-100"
                     src={react6}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+
+              <li><a href='https://github.com/willjorey/Towers-of-Hanoi'>Towers of Hanoi</a> A puzzle game in which the goal is to move all the discs from left platform
+              to the far right platform. Challenge yourself by increasing the number of discs to move.
+              <a href='https://willjorey.github.io/Towers-of-Hanoi/'> Solve the Puzzle Here</a>
+              </li>
+
+              <Carousel style={{marginTop:'30px', marginBottom: '30px'}}>
+                  <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={towers1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={towers2}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className=" mx-auto d-block w-100"
+                    src={towers3}
                     alt="First slide"
                   />
                 </Carousel.Item>
