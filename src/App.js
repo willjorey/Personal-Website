@@ -264,7 +264,7 @@ class App extends Component {
                 </Carousel.Item>
               </Carousel>
 
-              <li><a href='https://github.com/willjorey/Towers-of-Hanoi'>Towers of Hanoi</a> A puzzle game in which the goal is to move all the discs from left platform
+              <li><a href='https://github.com/willjorey/Towers-of-Hanoi'>Towers of Hanoi</a> - A puzzle game in which the goal is to move all the discs from left platform
               to the far right platform. Challenge yourself by increasing the number of discs to move.
               <a href='https://willjorey.github.io/Towers-of-Hanoi/'> Solve the Puzzle Here</a>
               </li>
